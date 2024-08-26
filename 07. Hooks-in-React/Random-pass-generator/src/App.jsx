@@ -49,6 +49,7 @@ function App() {
         <span className="flex">
         <input
           type="text"
+          ref={passwordRef} 
           className="border w-[300px] border-gray-300 dark:border-gray-600 rounded-md p-2  mb-4 text-gray-900 dark:text-white bg-gray-50 dark:bg-gray-700"
           value={password}
           readOnly
